@@ -1,0 +1,13 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: sqlite:////data/certificate_jobs.db
+      STORAGE_DIR: /data/generated
+    volumes:
+      - certificate_data:/data
+
+volumes:
+  certificate_data:

@@ -1,0 +1,22 @@
+{
+  "certificate_title": "Certificate of Completion",
+  "course_name": "Backend Engineering Workshop",
+  "issuer_name": "Example Learning Academy",
+  "issue_date": "2026-10-07",
+  "recipients": [
+    {
+      "name": "Aarav Sharma",
+      "email": "aarav@example.com",
+      "certificate_id": "BE-001"
+    },
+    {
+      "name": "Diya Verma",
+      "email": "diya@example.com",
+      "certificate_id": "BE-002"
+    },
+    {
+      "name": "Kabir Singh",
+      "email": "kabir@example.com"
+    }
+  ]
+}
